@@ -1,3 +1,5 @@
+import { env } from "./netlify";
+
 export default {
   widgets: [
     {
@@ -7,21 +9,18 @@ export default {
       name: "codesandbox",
     },
     {
-      name: "project-users",
+      name: "netlify",
+      options: {
+        title: "Netlify",
+        sites: [
+          {
+            title: "dustmedia",
+            apiId: env.id,
+            buildHookId: env.hook,
+            name: "dustmedia",
+          },
+        ],
+      },
     },
-    // {
-    //   name: "netlify",
-    //   options: {
-    //     title: "Netlify",
-    //     sites: [
-    //       {
-    //         title: "TITLE",
-    //         apiId: env.id,
-    //         buildHookId: env.hook,
-    //         name: "NAME"
-    //       }
-    //     ]
-    //   }
-    // },
   ],
 };

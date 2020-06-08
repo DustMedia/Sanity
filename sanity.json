@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "ID",
-    "dataset": "DATASET"
+    "projectId": "v3lewksl",
+    "dataset": "production"
   },
   "project": {
-    "name": "NAME"
+    "name": "Dust Media"
   },
   "plugins": [
     "@sanity/dashboard",

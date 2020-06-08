@@ -3,12 +3,20 @@ export default {
   type: "document",
   fields: [
     {
-      name: "logo",
-      type: "image",
+      name: "about",
+      type: "about",
     },
     {
       name: "socials",
       type: "socials",
+    },
+    {
+      name: "contact",
+      type: "contact",
+    },
+    {
+      name: "logo",
+      type: "image",
     },
   ],
 };
