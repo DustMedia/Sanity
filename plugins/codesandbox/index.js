@@ -14,7 +14,7 @@ function Sandbox() {
       <a
         className={styles.footer}
         style={{ textDecoration: "none" }}
-        href="https://jpxt2-8000.sse.codesandbox.io"
+        href="https://5v7gn-8000.sse.codesandbox.io/"
         target="blank"
       >
         <Button>Open preview</Button>

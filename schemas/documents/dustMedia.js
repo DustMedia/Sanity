@@ -15,6 +15,10 @@ export default {
       type: "contact",
     },
     {
+      name: "projects",
+      type: "projects",
+    },
+    {
       name: "logo",
       type: "image",
     },
